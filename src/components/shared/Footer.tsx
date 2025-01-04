@@ -4,24 +4,17 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="border-t select-none">
-      <div className="wrapper flex-between flex flex-col sm:flex-row gap-3">
+      <div className="wrapper flex-between flex flex-col sm:flex-row gap-3 items-center">
         <Link
           href="/"
           className="w-fit focus:outline-none flex flex-nowrap gap-2"
         >
           <Image
-            src="/assets/images/logo.svg"
-            alt="eventrix Logo"
-            width={1000}
-            height={120}
-            className="w-6 h-auto"
-          />
-          <Image
-            src="/assets/images/eventrix.svg"
-            alt="eventrix Logo"
-            width={518}
-            height={120}
-            className="w-24 h-auto"
+            src="/assets/images/logo.png"
+            alt="web3builders Logo"
+            width={6000} // Further increased width for high quality
+            height={4000} // Further increased height for high quality
+            className="w-48 h-auto" // Extra-large size
           />
         </Link>
         <div className="flex flex-col sm:flex-row gap-3">
@@ -39,7 +32,7 @@ const Footer = () => {
           </Link>
         </div>
         <p className="text-sm text-gray-500 tracking-wide mt-3 sm:mt-0">
-          2024 eventrix. All Rights Reserved.
+          2024 web3builders. All Rights Reserved.
         </p>
       </div>
     </footer>

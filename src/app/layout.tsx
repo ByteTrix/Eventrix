@@ -10,10 +10,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "eventrix",
+  title: "web3builders",
   description: "eventrix is a platform for Event Management",
   icons: {
-    icon: "/assets/images/logo.svg",
+    icon: "/assets/images/logo.png",
   },
 };
 

@@ -65,15 +65,16 @@ const HamburgerMenu = () => {
             className="w-full flex flex-nowrap gap-2"
           >
             <Image
-              src="/assets/images/logo.svg"
-              alt="eventrix Logo"
-              width={120}
-              height={120}
-              className="w-7 h-auto"
-            />
+                        src="/assets/images/logo.png"
+                        alt="web3builders Logo"
+                        width={5000} // Increased width for sharper quality
+                        height={3000} // Increased height for sharper quality
+                        className="w-24 h-auto" // Significantly larger logo size
+                      />
+            
             <Image
-              src="/assets/images/eventrix.svg"
-              alt="eventrix Logo"
+              src="/assets/images/web3builders.svg"
+              alt="web3builders Logo"
               width={350}
               height={65}
               className="w-20 h-auto"
