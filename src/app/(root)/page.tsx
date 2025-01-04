@@ -34,8 +34,8 @@ const Home = async (props: SearchParamProps) => {
               <br className="hidden lg:block" /> Your Events, Our Platform!
             </h1>
             <p className="p-regular-20 md:p-regular-24">
-              Learn from 3,000+ expert planners and industry leaders, and
-              transform your events with our global community's best practices.
+             We Create Best Events
+             Just For You
             </p>
             <Button
               asChild
