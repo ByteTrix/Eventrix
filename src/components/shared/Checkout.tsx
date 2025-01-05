@@ -5,7 +5,7 @@ import { registerForEvent } from "@/lib/actions/order.actions";
 
 const Checkout = ({ event, userId }: { event: IEvent; userId: string }) => {
   const [showPopup, setShowPopup] = useState(false);
-
+  const URL = "https://nbippx7worp.typeform.com/to/qK9lcLXh";
   const handleRegistration = async () => {
     const order = {
       eventId: event._id,
@@ -20,8 +20,7 @@ const Checkout = ({ event, userId }: { event: IEvent; userId: string }) => {
       setShowPopup(true); // Show popup for free events
     } else {
       // Redirect to Google Form for paid events
-      window.location.href =
-        "https://docs.google.com/forms/d/e/1FAIpQLSfz7tZmQJLTg9PY07mneE5Qk0K_y2QUpfAgvuSOOpgHaWh6XQ/viewform?usp=header";
+      window.location.href = URL;
     }
   };
 
