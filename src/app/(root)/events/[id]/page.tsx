@@ -25,17 +25,17 @@ const EventPage = async ({ params, searchParams }: SearchParamProps) => {
   return (
     <>
       <section className="w-full bg-dotted-pattern bg-contain bg-center bg-primary-50">
-        <div className="grid grid-cols-1 md:grid-cols-2 2xl:max-w-7xl mx-auto">
-          <div className="overflow-hidden md:py-10 py-4 lg:px-8 md:pl-6 md:pr-0 px-4">
-            <Image
-              src={event.imageURL}
-              alt="hero image"
-              width={1000}
-              height={1000}
-              className="h-full min-h-[300px] object-cover object-center rounded-3xl"
-            />
-          </div>
-
+  <div className="grid grid-cols-1 md:grid-cols-2 2xl:max-w-7xl mx-auto">
+    <div className="overflow-hidden md:py-10 py-4 lg:px-8 md:pl-6 md:pr-0 px-4">
+      <Image
+        src={event.imageURL}
+        alt="hero image"
+        layout="responsive"
+        width={1800}
+        height={1080}
+        className="w-full h-full object-contain rounded-3xl"
+      />
+    </div>
           <div className=" w-full flex flex-col sm:gap-8 gap-4 p-5 md:p-10">
             <div className="flex flex-col gap-6">
               <h2 className="sm:h2-bold h3-bold">{event.title}</h2>
