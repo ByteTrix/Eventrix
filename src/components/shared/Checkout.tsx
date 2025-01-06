@@ -5,7 +5,7 @@ import { registerForEvent } from "@/lib/actions/order.actions";
 
 const Checkout = ({ event, userId }: { event: IEvent; userId: string }) => {
   const [showPopup, setShowPopup] = useState(false);
-  const URL = "https://nbippx7worp.typeform.com/to/qK9lcLXh";
+  const URL = "https://web3builders.typeform.com/to/qK9lcLXh";
   const handleRegistration = async () => {
     const order = {
       eventId: event._id,
